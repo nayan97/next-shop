@@ -75,20 +75,21 @@ export default function NavBar() {
               <>
                 <li>
                   <Image
+                  className="rounded-full"
                     src={session?.user?.image}
-                    width={50}
-                    height={50}
+                    width={60}
+                    height={60}
                     alt="user-logo"
                   />
                 </li>
-                <li onClick={() => signOut()}>Log Out</li>
+                <li className="btn btn-error rounded-4xl text-white" onClick={() => signOut()}>Log Out</li>
               </>
             ) : (
               <>
-                <li>
+                <li className="btn bg-green-400 text-white rounded-full">
                   <Link href={"/register"}>Register</Link>
                 </li>
-                <li>
+                <li className="btn rounded-full">
                   <Link href={"/login"}>Login</Link>
                 </li>
               </>
