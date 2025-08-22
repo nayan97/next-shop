@@ -6,7 +6,7 @@ import { FaGoogle } from "react-icons/fa";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import SocialLogin from "./SocialLogin";
+// import SocialLogin from "./SocialLogin";
 
 export default function LoginForm() {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function LoginForm() {
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-lg space-y-8">
       <label className="form-control w-full">
-        <div className="label w-full">
+        <div className="label w-full mt-4">
           <span className="label-text  font-bold">Email</span>
         </div>
         <input
@@ -50,7 +50,7 @@ export default function LoginForm() {
         />
       </label>
       <label className="form-control w-full">
-        <div className="label w-full">
+        <div className="label w-full mt-4">
           <span className="label-text font-bold">Password</span>
         </div>
         <input
@@ -60,11 +60,11 @@ export default function LoginForm() {
           className="input input-bordered w-full"
         />
       </label>
-      <button className="w-full h-12 bg-orange-500 text-white font-bold">
+      <button className="w-full h-12 bg-orange-500 text-white font-bold my-4">
         Sign In
       </button>
       <p className="text-center">Or Sign In with</p>
-      <SocialLogin />
+      {/* <SocialLogin /> */}
       <p className="text-center">
         Already have an account?{" "}
         <Link href="/register" className="text-orange-500 font-bold">
