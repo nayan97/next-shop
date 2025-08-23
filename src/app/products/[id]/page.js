@@ -2,7 +2,7 @@ import React from "react";
 import products from "../../../../public/data/products.json";
 
 const ProductPage = async ({ params }) => {
-  const { id } = params;
+  const { id } = await params;
 
   // Simulate async fetching with Promise
   const getProduct = async () => {
@@ -25,15 +25,16 @@ const ProductPage = async ({ params }) => {
     <div className="max-w-5xl mx-auto p-4">
       <div className="bg-base-200 rounded-2xl shadow-md p-6">
         <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+      
 
         {product.image && (
           <img
             src={product.image}
             alt={product.name}
-            className="mb-6 rounded-lg max-h-96 object-cover w-full"
+            className="h-80 mb-6 rounded-lg max-h-96 object-cover w-full"
           />
         )}
-
+  <h2 className="text-xl font-bold mb-4">{product.short_description}</h2>
         <p className="whitespace-pre-line mb-6">{product.description}</p>
 
         <div className="flex items-center justify-between">

@@ -20,7 +20,8 @@ const page = () => {
                 className="rounded-md h-40 w-full object-cover"
               />
                     <h2 className="text-lg font-bold">{p.name}</h2>
-                    <p className="text-sm text-gray-600">{p.description}</p>
+                    <h4 className="text-md font-semibold">{p.short_description}</h4>
+                 
                     <div className="mt-2 font-medium">${p.price}</div>
                     <Link href={`/products/${p.id}`} className="btn bg-green-400 text-white rounded-full px-5 py-2 my-2">Details</Link>
                 </div>

@@ -1,28 +1,22 @@
+"use client";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 const Footer = () => {
+    const { data: session, status } = useSession();
   const links = (
-    <>
-      <li>
-        <Link href="/" className="hover:text-green-400">
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link href="/community" className="hover:text-green-400">
-          Community
-        </Link>
-      </li>
-      <li>
-        <Link href="/about-us" className="hover:text-green-400">
-          About Us
-        </Link>
-      </li>
-      <li>
-        <Link href="/all-trips" className="hover:text-green-400">
-          Trips
-        </Link>
-      </li>
-    </>
+       <>
+        <li>
+          <Link href={"/"}>Home</Link>
+        </li>
+        <li>
+          <Link href={"/products"}>Product List</Link>
+        </li>
+        {status === "authenticated" && (
+          <li>
+            <Link href="/dashboard/add-product">Dashboard</Link>
+          </li>
+        )}
+      </>
   );
   const Policy = (
     <>

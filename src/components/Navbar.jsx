@@ -16,15 +16,11 @@ export default function NavBar() {
         <li>
           <Link href={"/products"}>Product List</Link>
         </li>
-        <li>
-          <Link href={"/services"}>Services</Link>
-        </li>{" "}
-        <li>
-          <Link href={"/blogs"}>Blogs</Link>
-        </li>{" "}
-        <li>
-          <Link href={"/my-bookings"}>My Bookings</Link>
-        </li>
+        {status === "authenticated" && (
+          <li>
+            <Link href="/dashboard/add-product">Dashboard</Link>
+          </li>
+        )}
       </>
     );
   };
@@ -75,14 +71,19 @@ export default function NavBar() {
               <>
                 <li>
                   <Image
-                  className="rounded-full"
+                    className="rounded-full"
                     src={session?.user?.image}
                     width={60}
                     height={60}
                     alt="user-logo"
                   />
                 </li>
-                <li className="btn btn-error rounded-4xl text-white" onClick={() => signOut()}>Log Out</li>
+                <li
+                  className="btn btn-error rounded-4xl text-white"
+                  onClick={() => signOut()}
+                >
+                  Log Out
+                </li>
               </>
             ) : (
               <>
@@ -95,7 +96,6 @@ export default function NavBar() {
               </>
             )}
           </ul>
-          
         </div>
       </div>
     </div>

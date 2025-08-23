@@ -1,30 +1,98 @@
 [
-{
+  {
     "id": "1",
     "name": "Phone X",
-    "description": "Budget phone",
-     "image": "https://i.ibb.co.com/RkCDP5t7/images-6.jpg",
+    "short_description": "Budget-friendly smartphone",
+    "description": "The Phone X is designed for everyday users who want a perfect balance between performance, affordability, and style. It features a sleek design with a lightweight body, making it easy to carry and comfortable to hold. Powered by an efficient processor, this device allows you to run your favorite apps smoothly without unnecessary lag. The battery is optimized to last throughout the day, ensuring you stay connected, browse social media, and stream videos without worry. Its 6.2-inch HD+ display delivers vibrant colors and crisp visuals, enhancing your movie-watching and gaming experiences. The rear dual-camera setup ensures clear, sharp photos, even in low light conditions, while the front camera makes video calls more engaging. Built with security in mind, it offers face unlock and fingerprint scanning for quick and safe access. The Phone X also comes with expandable storage options, allowing you to store more photos, videos, and apps. With reliable performance, a clean interface, and regular updates, this smartphone is an excellent choice for students, professionals, or anyone seeking quality at an affordable price. Phone X combines practicality with style, making it the ultimate budget-friendly smartphone you can trust.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
     "price": 199
-},
+  },
   {
     "id": "2",
     "name": "Laptop Air",
-    "description": "Light & fast",
-    "image": "https://i.ibb.co.com/RkCDP5t7/images-6.jpg",
+    "short_description": "Lightweight performance laptop",
+    "description": "Laptop Air is crafted for those who value both power and portability. With its ultra-slim aluminum body, it weighs less than most traditional laptops, making it an ideal travel companion for students, freelancers, and professionals. Under the hood, it packs a powerful processor that ensures smooth multitasking, whether you're editing photos, browsing multiple tabs, or attending virtual meetings. The 13.3-inch Full HD display delivers sharp images and true-to-life colors, perfect for creative work and media consumption. Equipped with a long-lasting battery, you can work for hours without worrying about charging. Its backlit keyboard ensures comfortable typing, even in low-light environments. The laptop comes with a fast SSD drive, enabling quick boot times and rapid file transfers. Security features like fingerprint unlock add an extra layer of convenience and safety. Laptop Air also offers excellent connectivity with USB-C, HDMI, and wireless options. Designed with efficiency in mind, this device is not just about looks but also long-term reliability. Whether you’re working remotely, attending classes, or simply enjoying entertainment, Laptop Air ensures you stay productive and connected wherever you go.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
     "price": 999
   },
-    {
+  {
     "id": "3",
-    "name": "Laptop Air",
-    "description": "Light & fast",
-    "image": "https://i.ibb.co.com/RkCDP5t7/images-6.jpg",
-    "price": 999
+    "name": "Smartwatch Neo",
+    "short_description": "Health & fitness wearable",
+    "description": "Smartwatch Neo is your ultimate companion for a healthier and more connected lifestyle. Designed with a modern, minimalist look, it fits seamlessly with both casual and professional outfits. This smartwatch tracks your daily activities, including steps, calories burned, and heart rate, ensuring you stay motivated and aware of your fitness goals. Advanced sensors allow continuous monitoring of your sleep cycles, helping you develop healthier sleep habits. Equipped with multiple workout modes, it adapts to different types of exercise, from running and cycling to yoga and swimming. Its water-resistant design ensures durability, even during intense activities. Beyond fitness, Smartwatch Neo keeps you connected by displaying notifications for calls, texts, and apps directly on your wrist. The long-lasting battery offers up to a week of usage on a single charge, reducing the hassle of frequent recharging. With customizable watch faces and interchangeable straps, you can personalize it to match your style. Combining functionality, comfort, and smart features, Smartwatch Neo is perfect for anyone who wants to balance technology with an active lifestyle.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 149
   },
-    {
+  {
     "id": "4",
-    "name": "Laptop Air",
-    "description": "Light & fast",
-    "image": "https://i.ibb.co.com/RkCDP5t7/images-6.jpg",
-    "price": 999
+    "name": "Tablet Pro Max",
+    "short_description": "High-performance tablet",
+    "description": "Tablet Pro Max redefines productivity and entertainment in one sleek device. Designed for professionals, students, and creatives, it delivers powerful performance with its advanced processor and large RAM capacity. Its 11-inch high-resolution display provides vibrant visuals, making movies, games, and reading more immersive. The tablet supports stylus input, perfect for note-taking, sketching, and professional design work. Multitasking is seamless, with the ability to split screens and run multiple apps simultaneously. The slim and lightweight build makes it easy to carry, while the all-day battery ensures uninterrupted usage. Equipped with high-quality front and rear cameras, it enables clear video calls and stunning photos. With powerful speakers, audio is rich and immersive, whether you’re listening to music or attending online meetings. It comes with fast-charging capabilities and supports external keyboards for added versatility. Tablet Pro Max offers expandable storage options, ensuring you never run out of space for files, apps, or media. Whether for study, work, or play, it is a versatile device built to meet modern demands.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 499
+  },
+  {
+    "id": "5",
+    "name": "Wireless Earbuds Pro",
+    "short_description": "Premium sound with noise canceling",
+    "description": "Wireless Earbuds Pro delivers superior sound quality and a truly wireless experience for music lovers and professionals alike. Designed for comfort, they feature a lightweight and ergonomic build that ensures they stay secure, even during workouts. Equipped with advanced noise-canceling technology, they allow you to immerse yourself in your music or focus during calls without distraction. The earbuds provide crystal-clear audio, deep bass, and balanced tones, making them ideal for various genres of music. With a battery life of up to 6 hours per charge and an additional 24 hours from the charging case, you can enjoy uninterrupted music throughout the day. Quick pairing technology ensures fast and seamless connectivity with your devices. Built-in touch controls allow you to manage music, answer calls, and activate voice assistants effortlessly. The water and sweat-resistant design makes them reliable for outdoor use and workouts. Compact and stylish, Wireless Earbuds Pro offer a premium audio experience while ensuring long-lasting durability. Whether for travel, work, or exercise, these earbuds are the perfect everyday companion.",
+    "image": "https://i.ibb.co.com/FknJpfpc/Bid3-min.png",
+    "price": 129
+  },
+  {
+    "id": "6",
+    "name": "Gaming Laptop Beast",
+    "short_description": "High-end gaming powerhouse",
+    "description": "Gaming Laptop Beast is engineered for serious gamers who demand performance, speed, and durability. Powered by the latest generation processor and dedicated graphics card, it delivers smooth gameplay even in the most demanding AAA titles. The 15.6-inch Full HD display with high refresh rate ensures sharp visuals and ultra-smooth motion. With a robust cooling system, overheating is never an issue during extended gaming sessions. The laptop features a customizable RGB keyboard, enhancing both aesthetics and usability. Storage is lightning-fast with SSD, while additional HDD capacity provides ample space for large game libraries. The immersive audio system brings games to life, creating an engaging gaming environment. Battery life is optimized for portability, though it performs best when plugged in for maximum power. Whether you’re streaming, recording gameplay, or multitasking, the laptop’s high RAM ensures fluid performance. Gaming Laptop Beast combines power, design, and durability to give gamers the ultimate edge in competition.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 1599
+  },
+  {
+    "id": "7",
+    "name": "Smart TV Vision",
+    "short_description": "4K Ultra HD Smart TV",
+    "description": "Smart TV Vision transforms your home entertainment with crystal-clear 4K Ultra HD resolution and smart connectivity. Designed with a slim bezel and sleek frame, it adds a modern touch to any living space. The vivid colors, deep contrasts, and smooth motion make movies, sports, and games come alive. Powered by a smart operating system, it allows easy access to popular streaming platforms like Netflix, YouTube, and Prime Video. Built-in voice control makes browsing content effortless, while multiple HDMI and USB ports ensure easy device connectivity. Its energy-efficient design reduces power consumption without compromising performance. The TV also features advanced sound technology for immersive audio, enhancing your viewing experience. Whether wall-mounted or placed on a stand, Smart TV Vision blends perfectly with your home decor. With consistent software updates and support for screen mirroring, it keeps up with modern needs. Perfect for family entertainment, gaming, or personal use, it is a complete package that delivers both performance and style.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 699
+  },
+  {
+    "id": "8",
+    "name": "Bluetooth Speaker Boom",
+    "short_description": "Portable wireless speaker",
+    "description": "Bluetooth Speaker Boom delivers powerful sound in a compact and portable design. Ideal for both indoor and outdoor use, it is equipped with high-quality drivers that provide deep bass and clear treble. Its durable build and splash-resistant design make it perfect for beach trips, picnics, or small gatherings. The speaker features long battery life, offering up to 12 hours of continuous playback on a single charge. Bluetooth 5.0 ensures quick pairing and stable connectivity with smartphones, laptops, and tablets. It also includes an AUX input and memory card slot for versatile music playback options. The built-in microphone allows for hands-free calling, adding convenience to your lifestyle. With intuitive controls and LED indicators, managing music is effortless. Its lightweight structure and easy-carry handle make it truly portable. Designed for music lovers on the go, Bluetooth Speaker Boom combines durability, great sound quality, and long-lasting performance at an affordable price.",
+    "image": "https://i.ibb.co.com/FknJpfpc/Bid3-min.png",
+    "price": 89
+  },
+  {
+    "id": "9",
+    "name": "DSLR Camera ProShot",
+    "short_description": "Professional photography camera",
+    "description": "DSLR Camera ProShot is built for enthusiasts and professionals who seek top-quality photography. With a high-resolution sensor and advanced image processor, it captures stunning details and vibrant colors in every shot. The fast autofocus system ensures you never miss a moment, whether photographing landscapes, portraits, or fast-moving subjects. Its wide ISO range allows exceptional low-light performance, producing sharp images without excess noise. The camera also supports 4K video recording, making it a versatile tool for both photography and filmmaking. A durable body with weather-sealed protection ensures reliability in different environments. The intuitive controls and customizable buttons provide a comfortable shooting experience for beginners and experts alike. Compatible with a wide range of lenses, DSLR Camera ProShot adapts to any style of photography. With wireless connectivity, you can instantly transfer and share your creations. It’s more than a camera; it’s a complete creative partner for capturing memories with precision.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 1199
+  },
+  {
+    "id": "10",
+    "name": "Home Assistant Hub",
+    "short_description": "Smart home controller",
+    "description": "Home Assistant Hub brings convenience and automation to your home with advanced smart features. Designed to integrate seamlessly with various smart devices, it allows you to control lighting, temperature, security cameras, and more from one central hub. With voice control support, you can manage your home using simple commands. The hub is compatible with major smart ecosystems, ensuring broad connectivity and flexibility. Its intuitive app provides remote access, enabling you to control devices even when away from home. Equipped with strong data encryption, it ensures your privacy and security. The compact design allows discreet placement in any room, while regular software updates keep the hub up-to-date with new features. Setting up is simple, making it accessible for all users, from beginners to tech enthusiasts. Whether you’re building a smart home from scratch or upgrading existing devices, Home Assistant Hub provides efficiency, security, and comfort in one sleek package.",
+    "image": "https://i.ibb.co.com/93zhg5GV/Bid4-min.png",
+    "price": 199
+  },
+  {
+    "id": "11",
+    "name": "Fitness Tracker Band",
+    "short_description": "Compact fitness wearable",
+    "description": "Fitness Tracker Band helps you monitor and improve your health effortlessly. With its lightweight and comfortable design, it is suitable for all-day wear. The band tracks essential metrics such as steps, calories, heart rate, and sleep patterns, giving you valuable insights into your lifestyle. Multiple sport modes ensure accurate tracking of different activities, whether running, cycling, or gym workouts. It syncs seamlessly with your smartphone, displaying notifications and reminders on your wrist. The battery lasts up to 10 days, reducing the need for frequent charging. Its water-resistant design makes it suitable for swimming and outdoor activities. With customizable straps and watch faces, you can personalize your look while staying active. Fitness Tracker Band is ideal for individuals who want to stay motivated, maintain a healthy lifestyle, and keep track of daily progress without the bulk of larger devices.",
+    "image": "https://i.ibb.co.com/FknJpfpc/Bid3-min.png",
+    "price": 79
+  },
+  {
+    "id": "12",
+    "name": "Drone SkyMaster",
+    "short_description": "Advanced aerial drone",
+    "description": "Drone SkyMaster takes your photography and videography to new heights. Equipped with a high-resolution camera and advanced stabilization system, it captures breathtaking aerial shots with ease. Its intelligent flight modes, including follow-me, waypoint navigation, and orbit, allow for professional-quality footage without manual effort. The drone’s powerful motors and GPS ensure stable flight, even in challenging conditions. With long battery life, you can enjoy extended flying sessions before needing to recharge. Safety features such as obstacle detection and return-to-home provide peace of mind for beginners and experts alike. The foldable design makes it portable and convenient to carry, while the intuitive remote controller offers precise handling. Compatible with mobile apps, it allows real-time video streaming and advanced editing. Whether for personal use, professional projects, or hobby flying, Drone SkyMaster offers unmatched performance, reliability, and creative freedom in the skies.",
+    "image": "https://i.ibb.co.com/FknJpfpc/Bid3-min.png",
+    "price": 899
   }
 ]
